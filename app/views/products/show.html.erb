@@ -9,15 +9,18 @@
   <strong>Description:</strong>
   <%= @product.description %>
 </p>
-
 <p>
-  <strong>Image url:</strong>
-  <%= @product.image_url %>
+  <strong>Image:</strong>
 </p>
+
+<div id="image_show">
+  <%= image_tag(@product.image_url, class: 'list_image') %>
+</div>
+
 
 <p>
   <strong>Price:</strong>
-  <%= @product.price %>
+  <span><%= number_to_currency(@product.price)  %> </span>
 </p>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |

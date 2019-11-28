@@ -6,6 +6,11 @@
     border-collapse: collapse;
   }
 
+  h1{
+    padding-bottom: 0.5em;
+    border-bottom: 3px dotted #774;
+  }
+
   table tr td{
     padding: 5px;
     vertical-align: center;
@@ -47,4 +52,13 @@
   .list_line_odd{
     background:   	#FF6347;
   }
+}
+
+#new_product{
+  padding-bottom: 0.5em;
+  font-family: "DejaVu Sans Mono";
+  font-size: 125%;
+  font-weight: bold;
+  color: #000000;
+  padding-left: 1.1em;
 }

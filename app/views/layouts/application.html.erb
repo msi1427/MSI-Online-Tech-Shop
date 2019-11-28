@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Depot</title>
+    <title>MSI Online Tech Shop</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body class='<%= controller.controller_name %>'>
-    <%= yield %>
+    <div id="banner">
+      MSI Online Tech Shop
+      <span class="title"><%= @page_title %></span>
+    </div>
+    <div id="columns">
+      <div id="side">
+        <div id ="date_time">
+          Date: <%= Time.now %>
+        </div>
+        <ul>
+          <li><%= link_to "Home" , products_path %></li>
+          <li><%= link_to "Sort with Price" , store_index_path %></li>
+          <li><a href="https://www.nascenia.com/">News</a></li>
+          <li><a href="https://www.facebook.com/sabik.irbaz">Contacts</a></li>
+        </ul>
+      </div>
+      <div id="main">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
