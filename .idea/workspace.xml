@@ -2,72 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86e167dd-fc0a-4024-8ddb-626a346d8222" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/carts.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/products.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/line_items.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/carts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/line_items.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/channels/products_channel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/carts_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/current_cart.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/carts_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/line_items_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/cart.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/line_item.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/_cart.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/_cart.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/carts/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/_line_item.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/_line_item.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/create.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/line_items/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191128091000_create_carts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191128093141_create_line_items.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191129084646_add_quantity_to_line_items.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191129102916_combine_items_in_cart.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/carts_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/carts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/line_items.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/cart_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/line_item_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/depot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/depot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/store.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/store_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/store_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/line_item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/line_item.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/carts/_cart.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/carts/_cart.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/line_items/create.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/line_items/create.js.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/products_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/products_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/line_items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/line_items.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -113,6 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Rails.Development: depot">
@@ -243,7 +192,7 @@
       <workItem from="1575006867293" duration="13079000" />
       <workItem from="1575166213396" duration="15467000" />
       <workItem from="1575253882911" duration="14752000" />
-      <workItem from="1575273912329" duration="235000" />
+      <workItem from="1575273912329" duration="9975000" />
     </task>
     <servers />
   </component>
@@ -283,9 +232,9 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1745" y="89" width="672" height="678" key="search.everywhere.popup/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1575264293615" />
-    <state x="1807" y="303" width="540" height="186" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1575261751147">
+    <state x="1807" y="303" width="540" height="186" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1575278535024">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1807" y="303" width="540" height="186" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1575261751147" />
+    <state x="1807" y="303" width="540" height="186" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1575278535024" />
   </component>
 </project>
