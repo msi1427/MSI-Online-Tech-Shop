@@ -1,24 +1,17 @@
 body {
   background-color: #fff;
-  color: #000000;
+  color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
 }
 
-#image_show{
-  margin-left: 40px;
-  width: 200px;
-  length: 200px;
-
-}
-
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 15px;
-  margin: 30px;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
 pre {
@@ -93,4 +86,8 @@ div {
 
 label {
   display: block;
+}
+
+#image_show{
+  padding-left: 35px
 }
